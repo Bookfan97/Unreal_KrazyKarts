@@ -72,4 +72,14 @@
       <Filter>Source\KrazyKarts</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\KrazyKarts\GoKart.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\KrazyKarts\GoKart.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
