@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\KrazyKarts.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{894F4704-8DB3-460A-8884-9EC4EB2E1DA6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KrazyKarts.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\KrazyKartsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E6777389-E677-4F3B-AB26-1676141B9510}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\KrazyKarts">
+      <UniqueIdentifier>{843687EA-05B7-4289-84FE-9328327D3ABD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\KrazyKarts\KrazyKarts.Build.cs">
+      <Filter>Source\KrazyKarts</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKarts.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKarts.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsGameMode.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsGameMode.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsHud.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsHud.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsPawn.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsPawn.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsWheelFront.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsWheelFront.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsWheelRear.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsWheelRear.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

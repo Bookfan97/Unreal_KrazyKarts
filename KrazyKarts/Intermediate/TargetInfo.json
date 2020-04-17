@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "KrazyKarts",
+			"Path": "E:\\Github\\Unreal_KrazyKarts\\KrazyKarts\\Source\\KrazyKarts.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KrazyKartsEditor",
+			"Path": "E:\\Github\\Unreal_KrazyKarts\\KrazyKarts\\Source\\KrazyKartsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
