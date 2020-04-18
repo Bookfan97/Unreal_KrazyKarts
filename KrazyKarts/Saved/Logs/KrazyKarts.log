@@ -1075,3 +1075,29 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.18-22.10.16:242][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.18-22.10.16:245][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
 [2020.04.18-22.10.16:259][217]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.18-22.17.05:083][567]LogHotReload: New module detected: UE4Editor-KrazyKarts-0027.dll
+[2020.04.18-22.17.05:437][569]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.18-22.17.05:483][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.04.18-22.17.05:500][569]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
+[2020.04.18-22.17.05:500][569]LogClass: Function OnRep_ReplicatedTranform is new.
+[2020.04.18-22.17.05:500][569]LogClass: Function Server_MoveForward is new.
+[2020.04.18-22.17.05:500][569]LogClass: Function Server_MoveRight is new.
+[2020.04.18-22.17.05:513][569]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.18-22.17.05:824][569]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2020.04.18-22.17.05:827][569]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.18-22.17.05:903][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.04.18-22.17.05:915][569]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3025 classes and 725 folders.
+[2020.04.18-22.17.05:918][569]Display: HotReload took  0.5s.
+[2020.04.18-22.57.34:583][847]LogHotReload: New module detected: UE4Editor-KrazyKarts-0028.dll
+[2020.04.18-22.57.35:269][850]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.18-22.57.35:343][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.04.18-22.57.35:360][850]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
+[2020.04.18-22.57.35:360][850]LogClass: Function OnRep_ReplicatedTranform is new.
+[2020.04.18-22.57.35:360][850]LogClass: Function Server_MoveForward is new.
+[2020.04.18-22.57.35:360][850]LogClass: Function Server_MoveRight is new.
+[2020.04.18-22.57.35:378][850]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.18-22.57.35:741][850]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2020.04.18-22.57.35:746][850]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.18-22.57.35:861][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.04.18-22.57.35:874][850]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3025 classes and 725 folders.
+[2020.04.18-22.57.35:877][850]Display: HotReload took  0.6s.

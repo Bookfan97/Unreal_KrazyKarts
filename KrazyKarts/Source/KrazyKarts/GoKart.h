@@ -64,7 +64,8 @@ private:
 	UFUNCTION(Server, Reliable, WithValidation)
 		void Server_MoveRight(float Value);
 
-	FVector Velocity;
+	UPROPERTY(Replicated)
+		FVector Velocity;
 
 	UPROPERTY(ReplicatedUsing = OnRep_ReplicatedTranform)
 		FTransform ReplicatedTranform;
@@ -72,7 +73,9 @@ private:
 	UFUNCTION()
 		void OnRep_ReplicatedTranform();
 
-	float Throttle;
-	float SteeringThrow;
+	UPROPERTY(Replicated)
+		float Throttle;
+	UPROPERTY(Replicated)
+		float SteeringThrow;
 
 };

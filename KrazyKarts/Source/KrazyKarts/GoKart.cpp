@@ -21,6 +21,7 @@ AGoKart::AGoKart()
 void AGoKart::BeginPlay()
 {
 	Super::BeginPlay();
+
 	if (HasAuthority())
 	{
 		NetUpdateFrequency = 1;
@@ -31,6 +32,9 @@ void AGoKart::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetim
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AGoKart, ReplicatedTranform);
+	DOREPLIFETIME(AGoKart, Velocity);
+	DOREPLIFETIME(AGoKart, Throttle);
+	DOREPLIFETIME(AGoKart, SteeringThrow);
 }
 
 FString GetEnumText(ENetRole Role)
@@ -80,7 +84,6 @@ void AGoKart::OnRep_ReplicatedTranform()
 {
 	SetActorTransform(ReplicatedTranform);
 }
-
 
 FVector AGoKart::GetAirResistance()
 {
