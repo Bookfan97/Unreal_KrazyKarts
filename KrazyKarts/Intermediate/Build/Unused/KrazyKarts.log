@@ -1,17 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_KrazyKarts).
   Parsing headers for KrazyKartsEditor
     Running UnrealHeaderTool "E:\Github\Unreal_KrazyKarts\KrazyKarts\KrazyKarts.uproject" "E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\KrazyKartsEditor\Development\KrazyKartsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for KrazyKartsEditor in 4.7321611 seconds
+  Reflection code generated for KrazyKartsEditor in 4.6039264 seconds
   Building KrazyKartsEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 16 processes...
-    [1/5] GoKart.gen.cpp
-    [2/5] GoKart.cpp
-E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(58): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    [3/5] UE4Editor-KrazyKarts-0023.lib
-       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0023.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0023.exp
-    [4/5] UE4Editor-KrazyKarts-0023.dll
-       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0023.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0023.suppressed.exp
-    [5/5] KrazyKartsEditor.target
-  Total time in Parallel executor: 1.93 seconds
-  Total execution time: 7.30 seconds
+  Building 6 actions with 16 processes...
+    [1/6] KrazyKarts.init.gen.cpp
+    [2/6] GoKart.gen.cpp
+    [3/6] GoKart.cpp
+E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(76): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [4/6] UE4Editor-KrazyKarts-0026.lib
+       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0026.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0026.exp
+    [5/6] UE4Editor-KrazyKarts-0026.dll
+       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0026.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0026.suppressed.exp
+    [6/6] KrazyKartsEditor.target
+  Total time in Parallel executor: 2.79 seconds
+  Total execution time: 8.02 seconds

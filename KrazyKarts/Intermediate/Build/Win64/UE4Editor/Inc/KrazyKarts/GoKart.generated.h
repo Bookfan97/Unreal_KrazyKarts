@@ -20,6 +20,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual bool Server_MoveForward_Validate(float ); \
 	virtual void Server_MoveForward_Implementation(float Value); \
  \
+	DECLARE_FUNCTION(execOnRep_ReplicatedTranform) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_ReplicatedTranform(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execServer_MoveRight) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
@@ -54,6 +62,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	virtual void Server_MoveRight_Implementation(float Value); \
 	virtual bool Server_MoveForward_Validate(float ); \
 	virtual void Server_MoveForward_Implementation(float Value); \
+ \
+	DECLARE_FUNCTION(execOnRep_ReplicatedTranform) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_ReplicatedTranform(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execServer_MoveRight) \
 	{ \
@@ -102,7 +118,8 @@ private: \
 	friend struct Z_Construct_UClass_AGoKart_Statics; \
 public: \
 	DECLARE_CLASS(AGoKart, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/KrazyKarts"), NO_API) \
-	DECLARE_SERIALIZER(AGoKart)
+	DECLARE_SERIALIZER(AGoKart) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_12_INCLASS \
@@ -111,7 +128,8 @@ private: \
 	friend struct Z_Construct_UClass_AGoKart_Statics; \
 public: \
 	DECLARE_CLASS(AGoKart, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/KrazyKarts"), NO_API) \
-	DECLARE_SERIALIZER(AGoKart)
+	DECLARE_SERIALIZER(AGoKart) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_12_STANDARD_CONSTRUCTORS \
@@ -143,7 +161,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGoKart); \
 	FORCEINLINE static uint32 __PPO__MaxDrivingForce() { return STRUCT_OFFSET(AGoKart, MaxDrivingForce); } \
 	FORCEINLINE static uint32 __PPO__MinTurningRadius() { return STRUCT_OFFSET(AGoKart, MinTurningRadius); } \
 	FORCEINLINE static uint32 __PPO__DragCoefficient() { return STRUCT_OFFSET(AGoKart, DragCoefficient); } \
-	FORCEINLINE static uint32 __PPO__RollingResistanceCoefficient() { return STRUCT_OFFSET(AGoKart, RollingResistanceCoefficient); }
+	FORCEINLINE static uint32 __PPO__RollingResistanceCoefficient() { return STRUCT_OFFSET(AGoKart, RollingResistanceCoefficient); } \
+	FORCEINLINE static uint32 __PPO__ReplicatedTranform() { return STRUCT_OFFSET(AGoKart, ReplicatedTranform); }
 
 
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_9_PROLOG \
