@@ -40,9 +40,9 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DragCoefficient;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDegreesPerSecond_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinTurningRadius_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDegreesPerSecond;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinTurningRadius;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDrivingForce_MetaData[];
 #endif
@@ -85,14 +85,14 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient = { "DragCoefficient", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, DragCoefficient), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDegreesPerSecond_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData[] = {
 		{ "Category", "GoKart" },
-		{ "Comment", "// The number of degrees rotated per second at full control throw (degrees/s).\n" },
+		{ "Comment", "// Minimum radius of the car turning circle at full lock (m).\n" },
 		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "The number of degrees rotated per second at full control throw (degrees/s)." },
+		{ "ToolTip", "Minimum radius of the car turning circle at full lock (m)." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDegreesPerSecond = { "MaxDegreesPerSecond", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, MaxDegreesPerSecond), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDegreesPerSecond_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDegreesPerSecond_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius = { "MinTurningRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, MinTurningRadius), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce_MetaData[] = {
 		{ "Category", "GoKart" },
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGoKart_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDegreesPerSecond,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_Mass,
 	};
@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGoKart, 2388687018);
+	IMPLEMENT_CLASS(AGoKart, 1598655721);
 	template<> KRAZYKARTS_API UClass* StaticClass<AGoKart>()
 	{
 		return AGoKart::StaticClass();
