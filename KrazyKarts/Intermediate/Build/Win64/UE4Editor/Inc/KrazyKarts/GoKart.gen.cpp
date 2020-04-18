@@ -17,9 +17,87 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 	KRAZYKARTS_API UClass* Z_Construct_UClass_AGoKart();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_KrazyKarts();
+	KRAZYKARTS_API UFunction* Z_Construct_UFunction_AGoKart_Server_MoveForward();
+	KRAZYKARTS_API UFunction* Z_Construct_UFunction_AGoKart_Server_MoveRight();
 // End Cross Module References
+	static FName NAME_AGoKart_Server_MoveForward = FName(TEXT("Server_MoveForward"));
+	void AGoKart::Server_MoveForward(float Value)
+	{
+		GoKart_eventServer_MoveForward_Parms Parms;
+		Parms.Value=Value;
+		ProcessEvent(FindFunctionChecked(NAME_AGoKart_Server_MoveForward),&Parms);
+	}
+	static FName NAME_AGoKart_Server_MoveRight = FName(TEXT("Server_MoveRight"));
+	void AGoKart::Server_MoveRight(float Value)
+	{
+		GoKart_eventServer_MoveRight_Parms Parms;
+		Parms.Value=Value;
+		ProcessEvent(FindFunctionChecked(NAME_AGoKart_Server_MoveRight),&Parms);
+	}
 	void AGoKart::StaticRegisterNativesAGoKart()
 	{
+		UClass* Class = AGoKart::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Server_MoveForward", &AGoKart::execServer_MoveForward },
+			{ "Server_MoveRight", &AGoKart::execServer_MoveRight },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics
+	{
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GoKart_eventServer_MoveForward_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::NewProp_Value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GoKart.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGoKart, nullptr, "Server_MoveForward", nullptr, nullptr, sizeof(GoKart_eventServer_MoveForward_Parms), Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x80240CC1, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGoKart_Server_MoveForward()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGoKart_Server_MoveForward_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics
+	{
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GoKart_eventServer_MoveRight_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::NewProp_Value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GoKart.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGoKart, nullptr, "Server_MoveRight", nullptr, nullptr, sizeof(GoKart_eventServer_MoveRight_Parms), Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x80240CC1, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGoKart_Server_MoveRight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGoKart_Server_MoveRight_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGoKart_NoRegister()
 	{
@@ -28,6 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 	struct Z_Construct_UClass_AGoKart_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -58,6 +137,10 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 	UObject* (*const Z_Construct_UClass_AGoKart_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_KrazyKarts,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGoKart_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGoKart_Server_MoveForward, "Server_MoveForward" }, // 2977269254
+		{ &Z_Construct_UFunction_AGoKart_Server_MoveRight, "Server_MoveRight" }, // 2390613101
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::Class_MetaDataParams[] = {
@@ -126,11 +209,11 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AGoKart_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -145,7 +228,7 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGoKart, 1598655721);
+	IMPLEMENT_CLASS(AGoKart, 4053382797);
 	template<> KRAZYKARTS_API UClass* StaticClass<AGoKart>()
 	{
 		return AGoKart::StaticClass();

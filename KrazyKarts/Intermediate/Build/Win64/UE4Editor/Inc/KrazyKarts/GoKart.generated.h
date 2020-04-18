@@ -14,8 +14,88 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define KRAZYKARTS_GoKart_generated_h
 
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_12_SPARSE_DATA
-#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS
-#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS \
+	virtual bool Server_MoveRight_Validate(float ); \
+	virtual void Server_MoveRight_Implementation(float Value); \
+	virtual bool Server_MoveForward_Validate(float ); \
+	virtual void Server_MoveForward_Implementation(float Value); \
+ \
+	DECLARE_FUNCTION(execServer_MoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->Server_MoveRight_Validate(Z_Param_Value)) \
+		{ \
+			RPC_ValidateFailed(TEXT("Server_MoveRight_Validate")); \
+			return; \
+		} \
+		P_THIS->Server_MoveRight_Implementation(Z_Param_Value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_MoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->Server_MoveForward_Validate(Z_Param_Value)) \
+		{ \
+			RPC_ValidateFailed(TEXT("Server_MoveForward_Validate")); \
+			return; \
+		} \
+		P_THIS->Server_MoveForward_Implementation(Z_Param_Value); \
+		P_NATIVE_END; \
+	}
+
+
+#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool Server_MoveRight_Validate(float ); \
+	virtual void Server_MoveRight_Implementation(float Value); \
+	virtual bool Server_MoveForward_Validate(float ); \
+	virtual void Server_MoveForward_Implementation(float Value); \
+ \
+	DECLARE_FUNCTION(execServer_MoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->Server_MoveRight_Validate(Z_Param_Value)) \
+		{ \
+			RPC_ValidateFailed(TEXT("Server_MoveRight_Validate")); \
+			return; \
+		} \
+		P_THIS->Server_MoveRight_Implementation(Z_Param_Value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServer_MoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->Server_MoveForward_Validate(Z_Param_Value)) \
+		{ \
+			RPC_ValidateFailed(TEXT("Server_MoveForward_Validate")); \
+			return; \
+		} \
+		P_THIS->Server_MoveForward_Implementation(Z_Param_Value); \
+		P_NATIVE_END; \
+	}
+
+
+#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_EVENT_PARMS \
+	struct GoKart_eventServer_MoveForward_Parms \
+	{ \
+		float Value; \
+	}; \
+	struct GoKart_eventServer_MoveRight_Parms \
+	{ \
+		float Value; \
+	};
+
+
+#define KrazyKarts_Source_KrazyKarts_GoKart_h_12_CALLBACK_WRAPPERS
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGoKart(); \
@@ -66,13 +146,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGoKart); \
 	FORCEINLINE static uint32 __PPO__RollingResistanceCoefficient() { return STRUCT_OFFSET(AGoKart, RollingResistanceCoefficient); }
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKart_h_9_PROLOG
+#define KrazyKarts_Source_KrazyKarts_GoKart_h_9_PROLOG \
+	KrazyKarts_Source_KrazyKarts_GoKart_h_12_EVENT_PARMS
+
+
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_PRIVATE_PROPERTY_OFFSET \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_SPARSE_DATA \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS \
+	KrazyKarts_Source_KrazyKarts_GoKart_h_12_CALLBACK_WRAPPERS \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_INCLASS \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -85,6 +169,7 @@ public: \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_PRIVATE_PROPERTY_OFFSET \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_SPARSE_DATA \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	KrazyKarts_Source_KrazyKarts_GoKart_h_12_CALLBACK_WRAPPERS \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_INCLASS_NO_PURE_DECLS \
 	KrazyKarts_Source_KrazyKarts_GoKart_h_12_ENHANCED_CONSTRUCTORS \
 private: \
