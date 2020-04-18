@@ -1,4 +1,3 @@
-
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -29,6 +28,8 @@ public:
 
 
 private:
+	FVector GetResistance();
+
 	void ApplyRotation(float DeltaTime);
 
 	void UpdateLocationFromVelocity(float DeltaTime);
@@ -44,6 +45,10 @@ private:
 	// The number of degrees rotated per second at full control throw (degrees/s).
 	UPROPERTY(EditAnywhere)
 		float MaxDegreesPerSecond = 90;
+
+	// Higher means more drag.
+	UPROPERTY(EditAnywhere)
+		float DragCoefficient = 16;
 
 	void MoveForward(float Value);
 
