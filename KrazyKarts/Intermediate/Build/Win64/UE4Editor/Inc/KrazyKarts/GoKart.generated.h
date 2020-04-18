@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGoKart); \
 	FORCEINLINE static uint32 __PPO__Mass() { return STRUCT_OFFSET(AGoKart, Mass); } \
 	FORCEINLINE static uint32 __PPO__MaxDrivingForce() { return STRUCT_OFFSET(AGoKart, MaxDrivingForce); } \
 	FORCEINLINE static uint32 __PPO__MaxDegreesPerSecond() { return STRUCT_OFFSET(AGoKart, MaxDegreesPerSecond); } \
-	FORCEINLINE static uint32 __PPO__DragCoefficient() { return STRUCT_OFFSET(AGoKart, DragCoefficient); }
+	FORCEINLINE static uint32 __PPO__DragCoefficient() { return STRUCT_OFFSET(AGoKart, DragCoefficient); } \
+	FORCEINLINE static uint32 __PPO__RollingResistanceCoefficient() { return STRUCT_OFFSET(AGoKart, RollingResistanceCoefficient); }
 
 
 #define KrazyKarts_Source_KrazyKarts_GoKart_h_9_PROLOG
