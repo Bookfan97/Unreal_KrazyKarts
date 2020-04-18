@@ -1,3 +1,4 @@
+
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -28,17 +29,29 @@ public:
 
 
 private:
+	void ApplyRotation(float DeltaTime);
+
 	void UpdateLocationFromVelocity(float DeltaTime);
 
+	// The mass of the car (kg).
 	UPROPERTY(EditAnywhere)
 		float Mass = 1000;
 
+	// The force applied to the car when the throttle is fully down (N).
 	UPROPERTY(EditAnywhere)
 		float MaxDrivingForce = 10000;
 
+	// The number of degrees rotated per second at full control throw (degrees/s).
+	UPROPERTY(EditAnywhere)
+		float MaxDegreesPerSecond = 90;
+
 	void MoveForward(float Value);
+
+	void MoveRight(float Value);
 
 	FVector Velocity;
 
 	float Throttle;
+	float SteeringThrow;
+
 };
