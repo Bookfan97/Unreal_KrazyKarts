@@ -20,10 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> KRAZYKARTS_API UScriptStruct* StaticStruct<struct FGoKartMove>();
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_SPARSE_DATA
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_RPC_WRAPPERS
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_INCLASS_NO_PURE_DECLS \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_SPARSE_DATA
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_RPC_WRAPPERS
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGoKartMovementComponent(); \
 	friend struct Z_Construct_UClass_UGoKartMovementComponent_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(UGoKartMovementComponent)
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_INCLASS \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_INCLASS \
 private: \
 	static void StaticRegisterNativesUGoKartMovementComponent(); \
 	friend struct Z_Construct_UClass_UGoKartMovementComponent_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UGoKartMovementComponent)
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_STANDARD_CONSTRUCTORS \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGoKartMovementComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGoKartMovementComponent) \
@@ -54,7 +54,7 @@ private: \
 public:
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_ENHANCED_CONSTRUCTORS \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGoKartMovementComponent(UGoKartMovementComponent&&); \
@@ -65,7 +65,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGoKartMovementComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGoKartMovementComponent)
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mass() { return STRUCT_OFFSET(UGoKartMovementComponent, Mass); } \
 	FORCEINLINE static uint32 __PPO__MaxDrivingForce() { return STRUCT_OFFSET(UGoKartMovementComponent, MaxDrivingForce); } \
 	FORCEINLINE static uint32 __PPO__MinTurningRadius() { return STRUCT_OFFSET(UGoKartMovementComponent, MinTurningRadius); } \
@@ -73,27 +73,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGoKartMovementComponent); \
 	FORCEINLINE static uint32 __PPO__RollingResistanceCoefficient() { return STRUCT_OFFSET(UGoKartMovementComponent, RollingResistanceCoefficient); }
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_25_PROLOG
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_GENERATED_BODY_LEGACY \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_29_PROLOG
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_PRIVATE_PROPERTY_OFFSET \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_SPARSE_DATA \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_RPC_WRAPPERS \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_INCLASS \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_STANDARD_CONSTRUCTORS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_PRIVATE_PROPERTY_OFFSET \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_SPARSE_DATA \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_RPC_WRAPPERS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_INCLASS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_GENERATED_BODY \
+#define KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_PRIVATE_PROPERTY_OFFSET \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_SPARSE_DATA \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_INCLASS_NO_PURE_DECLS \
-	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_28_ENHANCED_CONSTRUCTORS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_PRIVATE_PROPERTY_OFFSET \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_SPARSE_DATA \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_INCLASS_NO_PURE_DECLS \
+	KrazyKarts_Source_KrazyKarts_GoKartMovementComponent_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

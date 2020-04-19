@@ -1,4 +1,4 @@
-﻿Log file open, 04/19/20 16:12:28
+﻿Log file open, 04/19/20 16:35:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: KrazyKarts
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.063285
+LogStats: Stats thread started at 0.063490
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -165,960 +165,556 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:186][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.19-20.12.29:191][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:191][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.19-20.12.29:192][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.19-20.12.29:192][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.19-20.12.29:192][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.19-20.12.29:194][  0]LogHAL: Display: Platform has ~ 32 GB [34273157120 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.19-20.12.29:194][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.19-20.12.29:194][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.19-20.12.29:194][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.19-20.12.29:195][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
-[2020.04.19-20.12.29:196][  0]LogInit: Computer: DESKTOP-22ELON2
-[2020.04.19-20.12.29:196][  0]LogInit: User: shelt
-[2020.04.19-20.12.29:196][  0]LogInit: CPU Page size=4096, Cores=8
-[2020.04.19-20.12.29:196][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.19-20.12.29:196][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.04.19-20.12.29:196][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.19-20.12.29:196][  0]LogMemory: Process Physical Memory: 110.86 MB used, 110.86 MB peak
-[2020.04.19-20.12.29:196][  0]LogMemory: Process Virtual Memory: 106.37 MB used, 106.37 MB peak
-[2020.04.19-20.12.29:196][  0]LogMemory: Physical Memory: 13204.10 MB used,  19481.33 MB free, 32685.43 MB total
-[2020.04.19-20.12.29:196][  0]LogMemory: Virtual Memory: 5222.59 MB used,  134212504.00 MB free, 134217728.00 MB total
-[2020.04.19-20.12.29:544][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.19-20.12.29:567][  0]LogInit: Using OS detected language (en-US).
-[2020.04.19-20.12.29:567][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.19-20.12.29:567][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.19-20.12.29:711][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.19-20.12.29:735][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.19-20.12.29:735][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.19-20.12.29:887][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2020.04.19-20.12.29:887][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.19-20.12.29:887][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.19-20.12.29:887][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.19-20.12.29:957][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
-[2020.04.19-20.12.29:957][  0]LogD3D11RHI:       11049/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.04.19-20.12.29:959][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.19-20.12.29:959][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.19-20.12.29:959][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.19-20.12.29:968][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.19-20.12.29:968][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.19-20.12.29:968][  0]LogWindows: EnumDisplayDevices:
-[2020.04.19-20.12.29:968][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
-[2020.04.19-20.12.29:969][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
-[2020.04.19-20.12.29:969][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.04.19-20.12.29:969][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
-[2020.04.19-20.12.29:969][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.04.19-20.12.29:969][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
-[2020.04.19-20.12.29:969][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
-[2020.04.19-20.12.29:969][  0]LogD3D11RHI:      Driver Date: 4-3-2020
-[2020.04.19-20.12.29:969][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
-[2020.04.19-20.12.30:021][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.19-20.12.30:021][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.19-20.12.30:048][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.04.19-20.12.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.19-20.12.30:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.19-20.12.30:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.19-20.12.30:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.19-20.12.30:342][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.19-20.12.30:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.19-20.12.30:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.19-20.12.30:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.19-20.12.30:364][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.19-20.12.30:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.19-20.12.30:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.19-20.12.30:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.19-20.12.30:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.19-20.12.30:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.19-20.12.30:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.19-20.12.30:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.19-20.12.30:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.19-20.12.30:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.19-20.12.30:422][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.19-20.12.30:425][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.19-20.12.30:448][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (E:/Github/Unreal_KrazyKarts/KrazyKarts/Intermediate/Shaders/WorkingDirectory/8616/).
-[2020.04.19-20.12.30:448][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shelt/AppData/Local/Temp/UnrealShaderWorkingDir/A2A9001A4E5495D62966D3A2C397FBA2/'.
-[2020.04.19-20.12.30:448][  0]LogXGEController: Cleaning working directory: C:/Users/shelt/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.04.19-20.12.30:448][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.19-20.12.30:448][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.19-20.12.30:448][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.19-20.12.30:975][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: Loaded boot cache 0.05s 83MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Unreal_KrazyKarts/KrazyKarts/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Unreal_KrazyKarts/KrazyKarts/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.19-20.12.31:029][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.19-20.12.31:037][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.19-20.12.31:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.19-20.12.31:037][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.19-20.12.31:038][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shelt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.19-20.12.31:038][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.19-20.12.31:038][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.19-20.12.31:056][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.19-20.12.31:058][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.19-20.12.31:058][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.19-20.12.31:102][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
-[2020.04.19-20.12.31:351][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.19-20.12.31:473][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.19-20.12.31:473][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.19-20.12.31:473][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.19-20.12.31:473][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.19-20.12.31:473][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.19-20.12.31:485][  0]LogNetVersion: KrazyKarts 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2255843156)
-[2020.04.19-20.12.32:354][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.041115 seconds
-[2020.04.19-20.12.32:360][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.04.19-20.12.32:360][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.04.19-20.12.32:360][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.19-20.12.32:680][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.19-20.12.32:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.19-20.12.33:205][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.498 s
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: === Handled ensure: ===
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: 
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: Ensure condition failed: !NeedsInitialization() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp] [Line: 1741]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: SetReplicatedByDefault is preferred during Component Construction.
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: Stack: 
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffaac8ad99 UE4Editor-Engine.dll!DispatchCheckVerify<bool,<lambda_d12e58a5100ee198f8c571cc7c965500> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:167]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffa983f21a UE4Editor-Engine.dll!UActorComponent::SetIsReplicated() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:1741]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fff856e545f UE4Editor-KrazyKarts-8202.dll!UGoKartMovementReplicator::UGoKartMovementReplicator() [E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKartMovementReplicator.cpp:14]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc6fa191a UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3142]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc71f11f5 UE4Editor-CoreUObject.dll!FObjectInitializer::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3751]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc713f28c UE4Editor-CoreUObject.dll!UObject::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:110]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fff856e2950 UE4Editor-KrazyKarts-8202.dll!AGoKart::AGoKart() [E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp:18]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc6fa191a UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3142]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc7231ddf UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:933]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc721119f UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:1022]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc71457b5 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(FName,bool)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:854]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffac45c487 UE4Editor-Core.dll!TBaseMulticastDelegate<void,FName,bool>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1013]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffac47aa1b UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:493]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffeeb2af37 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:554]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007fffeeb2b229 UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4\sync\engine\source\runtime\projects\private\projectmanager.cpp:63]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33f671 UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3517]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34204b UE4Editor.exe!FEngineLoop::PreInitPostStartupScreen() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2889]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33c17c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:131]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33c4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff82f366fd4 KERNEL32.DLL!UnknownFunction []
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: [Callstack] 0x00007ff82f6dcec1 ntdll.dll!UnknownFunction []
-[2020.04.19-20.12.33:205][  0]LogOutputDevice: Error: 
-[2020.04.19-20.12.33:215][  0]LogStats:                SubmitErrorReport -  0.000 s
-[2020.04.19-20.12.34:290][  0]LogStats:                    SendNewReport -  1.075 s
-[2020.04.19-20.12.34:290][  0]LogStats:             FDebug::EnsureFailed -  1.583 s
-[2020.04.19-20.12.34:384][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.34:384][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.34:385][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.34:385][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.34:386][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.34:454][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.19-20.12.34:462][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.19-20.12.34:462][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.19-20.12.34:533][  0]LogOcInput: OculusInput pre-init called
-[2020.04.19-20.12.35:018][  0]LogEngine: Initializing Engine...
-[2020.04.19-20.12.35:072][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.04.19-20.12.35:073][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.19-20.12.35:332][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.19-20.12.35:336][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.12.35:352][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.12.35:352][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.12.35:352][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.12.35:523][  0]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.12.35:779][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.12.35:786][  0]LogInit: FAudioDevice initialized.
-[2020.04.19-20.12.35:787][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.19-20.12.35:829][  0]LogDerivedDataCache: Saved boot cache 0.04s 83MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.19-20.12.35:834][  0]LogInit: Texture streaming: Enabled
-[2020.04.19-20.12.35:841][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.19-20.12.35:841][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.19-20.12.35:843][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.19-20.12.35:892][  0]LogInit: Transaction tracking system initialized
-[2020.04.19-20.12.35:900][  0]BlueprintLog: New page: Editor Load
-[2020.04.19-20.12.35:922][  0]LocalizationService: Localization service is disabled
-[2020.04.19-20.12.36:139][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/' took 0.00s
-[2020.04.19-20.12.36:139][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.19-20.12.36:139][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.19-20.12.36:626][  0]SourceControl: Source control is disabled
-[2020.04.19-20.12.36:626][  0]Cmd: MAP LOAD FILE="E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.19-20.12.36:626][  0]LightingResults: New page: Lighting Build
-[2020.04.19-20.12.36:627][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.12.36:627][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.12.36:627][  0]MapCheck: New page: Map Check
-[2020.04.19-20.12.36:627][  0]LightingResults: New page: Lighting Build
-[2020.04.19-20.12.36:655][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
-[2020.04.19-20.12.36:761][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.12.36:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.19-20.12.36:791][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
-[2020.04.19-20.12.36:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.19-20.12.36:791][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.071ms to complete.
-[2020.04.19-20.12.36:791][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.166
-[2020.04.19-20.12.36:920][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.12.36:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.12.36:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.12.36:935][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.12.36:940][  0]LogCollectionManager: Loaded 0 collections in 0.002253 seconds
-[2020.04.19-20.12.36:951][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Collections/' took 0.00s
-[2020.04.19-20.12.36:951][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/Developers/shelt/Collections/' took 0.00s
-[2020.04.19-20.12.36:951][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/Collections/' took 0.00s
-[2020.04.19-20.12.36:951][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3025 classes and 722 folders.
-[2020.04.19-20.12.36:953][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.04.19-20.12.37:004][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.04.19-20.12.37:008][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.04.19-20.12.37:088][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.19-20.12.37:089][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.19-20.12.37:093][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.19-20.12.37:149][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.04.19-20.12.37:223][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.19-20.12.37:223][  0]LogLoad: (Engine Initialization) Total time: 9.99 seconds
-[2020.04.19-20.12.37:223][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.19-20.12.37:238][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.04.19-20.12.37:238][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.04.19-20.12.37:238][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
-[2020.04.19-20.12.37:238][  0]LogRawInputWindows: Warning: Found device 20 devices
-[2020.04.19-20.12.37:238][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
-[2020.04.19-20.12.37:262][  0]LogAssetRegistry: Asset discovery search completed in 6.1609 seconds
-[2020.04.19-20.12.37:264][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
-[2020.04.19-20.12.37:266][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.19-20.12.37:281][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.19-20.12.42:030][386]Candidate modules for hot reload:
-[2020.04.19-20.12.42:030][386]  KrazyKarts
-[2020.04.19-20.12.42:030][386]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KrazyKarts,6268 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_KrazyKarts/KrazyKarts/KrazyKarts.uproject" "E:/Github/Unreal_KrazyKarts/KrazyKarts/KrazyKarts.uproject"  -IgnoreJunk]
-[2020.04.19-20.12.42:032][386]Warning: Starting HotReload took  0.0s.
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: New page: Compilation - Apr 19, 2020, 12:12:43 PM
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_KrazyKarts).
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Building KrazyKartsEditor...
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Building 3 actions with 16 processes...
-[2020.04.19-20.12.43:721][548]CompilerResultsLog:   [1/3] UE4Editor-KrazyKarts-6268.lib
-[2020.04.19-20.12.43:721][548]CompilerResultsLog:      Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6268.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6268.exp
-[2020.04.19-20.12.43:721][548]CompilerResultsLog:   [2/3] UE4Editor-KrazyKarts-6268.dll
-[2020.04.19-20.12.43:721][548]CompilerResultsLog:      Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6268.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6268.suppressed.exp
-[2020.04.19-20.12.43:721][548]CompilerResultsLog:   [3/3] KrazyKartsEditor.target
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Total time in Parallel executor: 0.77 seconds
-[2020.04.19-20.12.43:721][548]CompilerResultsLog: Total execution time: 1.62 seconds
-[2020.04.19-20.12.43:721][548]LogMainFrame: MainFrame: Module compiling took 1.696 seconds
-[2020.04.19-20.12.43:746][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2020.04.19-20.12.43:767][548]LogClass: GoKartMove HotReload.
-[2020.04.19-20.12.43:767][548]LogClass: GoKartState HotReload.
-[2020.04.19-20.12.43:771][548]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
-[2020.04.19-20.12.43:773][548]Display: HotReload successful (2 functions remapped  2 scriptstructs remapped)
-[2020.04.19-20.12.43:830][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
-[2020.04.19-20.12.43:840][548]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 3027 classes and 725 folders.
-[2020.04.19-20.12.43:840][548]Display: HotReload took  1.8s.
-[2020.04.19-20.12.45:847][786]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.19-20.12.45:859][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.12.45:859][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.19-20.12.45:859][786]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:12:45 PM)
-[2020.04.19-20.12.45:860][786]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.04.19-20.12.45:861][786]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.04.19-20.12.45:861][786]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.12.45:879][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017604s)
-[2020.04.19-20.12.45:880][786]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.12.45:880][786]LogPlayLevel: PIE: World Init took: (0.001322s)
-[2020.04.19-20.12.45:880][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019157s)
-[2020.04.19-20.12.45:908][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.12.45:909][786]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.12.45:909][786]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.12.45:909][786]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.12.45:961][786]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.12.45:995][786]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.12.45:996][786]LogInit: FAudioDevice initialized.
-[2020.04.19-20.12.46:006][786]LogBlueprint: Warning: [Compiler BP_GoKart] GoKart.MovementReplicator is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get MovementReplicator
-[2020.04.19-20.12.46:006][786]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  <Unnamed>  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.12.46:006][786]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Target  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.12.46:006][786]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Root  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.12.46:006][786]LogBlueprint: Error: [Compiler BP_GoKart] Could not find a function named "SetMeshOffsetRoot" in 'GoKartMovementReplicator'.
-Make sure 'GoKartMovementReplicator' has been compiled for  Set Mesh Offset Root
-[2020.04.19-20.12.46:009][786]LogLoad: Game class is 'BP_GameMode_C'
-[2020.04.19-20.12.46:013][786]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.12.46
-[2020.04.19-20.12.46:013][786]LogWorld: Bringing up level for play took: 0.001507
-[2020.04.19-20.12.46:013][786]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.04.19-20.12.46:035][786]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2020.04.19-20.12.46:042][786]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.426
-[2020.04.19-20.12.46:042][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.13.02:321][736]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.13.02:343][736]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.19-20.13.02:364][736]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.19-20.13.02:364][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.13.02:364][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.13.02:364][736]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.13.02:364][736]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.13.02:364][736]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.13.02:364][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.13.02:369][736]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.19-20.13.02:369][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.13.02:371][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.13.02:395][736]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.13.02:407][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.13.02:409][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2020.04.19-20.13.02:427][738]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.04.19-20.13.03:556][866]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.19-20.13.03:573][866]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KrazyKarts/BP_GoKart.BP_GoKart
-[2020.04.19-20.13.03:674][866]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2020.04.19-20.13.04:299][866]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.04.19-20.15.25:577][404]Candidate modules for hot reload:
-[2020.04.19-20.15.25:577][404]  KrazyKarts
-[2020.04.19-20.15.25:577][404]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=KrazyKarts,6302 Win64 Development -TargetType=Editor -Project="E:/Github/Unreal_KrazyKarts/KrazyKarts/KrazyKarts.uproject" "E:/Github/Unreal_KrazyKarts/KrazyKarts/KrazyKarts.uproject"  -IgnoreJunk]
-[2020.04.19-20.15.25:578][404]Warning: Starting HotReload took  0.0s.
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: New page: Compilation - Apr 19, 2020, 12:15:33 PM
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\Unreal_KrazyKarts).
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: Parsing headers for KrazyKartsEditor
-[2020.04.19-20.15.33:762][347]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github\Unreal_KrazyKarts\KrazyKarts\KrazyKarts.uproject" "E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\KrazyKartsEditor\Development\KrazyKartsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: Reflection code generated for KrazyKartsEditor in 4.840335 seconds
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: Building KrazyKartsEditor...
-[2020.04.19-20.15.33:762][347]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.04.19-20.15.33:763][347]CompilerResultsLog: Building 8 actions with 16 processes...
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [1/8] KrazyKarts.init.gen.cpp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [2/8] GoKart.gen.cpp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [3/8] GoKart.cpp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(16): warning C4996: 'AActor::bReplicateMovement': This member will be made private. Please use IsReplicatingMovement or SetReplicatingMovement. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(54): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [4/8] GoKartMovementReplicator.gen.cpp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [5/8] GoKartMovementReplicator.cpp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [6/8] UE4Editor-KrazyKarts-6302.lib
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:      Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6302.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6302.exp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [7/8] UE4Editor-KrazyKarts-6302.dll
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:      Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6302.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-6302.suppressed.exp
-[2020.04.19-20.15.33:763][347]CompilerResultsLog:   [8/8] KrazyKartsEditor.target
-[2020.04.19-20.15.33:763][347]CompilerResultsLog: Total time in Parallel executor: 2.38 seconds
-[2020.04.19-20.15.33:763][347]CompilerResultsLog: Total execution time: 8.11 seconds
-[2020.04.19-20.15.33:763][347]LogMainFrame: MainFrame: Module compiling took 8.190 seconds
-[2020.04.19-20.15.33:797][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
-[2020.04.19-20.15.33:813][347]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
-[2020.04.19-20.15.33:815][347]LogClass: Could not find existing class GoKartMovementReplicator in package /Script/KrazyKarts for HotReload, assuming new class
-[2020.04.19-20.15.33:815][347]LogClass: Function OnRep_ServerState is new.
-[2020.04.19-20.15.33:815][347]LogClass: Function Server_SendMove is new.
-[2020.04.19-20.15.33:815][347]LogClass: Function SetMeshOffsetRoot is new.
-[2020.04.19-20.15.33:822][347]LogClass: GoKartMove HotReload.
-[2020.04.19-20.15.33:822][347]LogClass: GoKartState HotReload.
-[2020.04.19-20.15.33:827][347]LogHotReload: Re-instancing GoKart after hot-reload.
-[2020.04.19-20.15.33:828][347]LogBlueprint: Warning: [Compiler BP_GoKart] GoKart.MovementReplicator is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get MovementReplicator
-[2020.04.19-20.15.33:828][347]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  <Unnamed>  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.33:828][347]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Target  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.33:829][347]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Root  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.33:829][347]LogBlueprint: Error: [Compiler BP_GoKart] Could not find a function named "SetMeshOffsetRoot" in 'HOTRELOADED_GoKartMovementReplicator_1'.
-Make sure 'HOTRELOADED_GoKartMovementReplicator_1' has been compiled for  Set Mesh Offset Root
-[2020.04.19-20.15.33:829][347]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_GoKartMovementReplicator_1 for a property of Class /Script/KrazyKarts.GoKartMovementReplicator. Reference will be nullptred.
-    Property = ObjectProperty /Script/KrazyKarts.GoKart:MovementReplicator
-    Item = HOTRELOADED_GoKartMovementReplicator_1 /Engine/Transient.Default__BP_GoKart_C:MovementReplicator
-[2020.04.19-20.15.33:832][347]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_GoKartMovementReplicator_1 for a property of Class /Script/KrazyKarts.GoKartMovementReplicator. Reference will be nullptred.
-    Property = ObjectProperty /Script/KrazyKarts.GoKart:MovementReplicator
-    Item = HOTRELOADED_GoKartMovementReplicator_1 /Engine/Transient.World_0:PersistentLevel.REINST_BP_GoKart_C_0.MovementReplicator
-[2020.04.19-20.15.33:832][347]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_GoKartMovementReplicator_1 for a property of Class /Script/KrazyKarts.GoKartMovementReplicator. Reference will be nullptred.
-    Property = ObjectProperty /Script/KrazyKarts.GoKart:MovementReplicator
-    Item = HOTRELOADED_GoKartMovementReplicator_1 /Engine/Transient.World_1:PersistentLevel.REINST_BP_GoKart_C_0.MovementReplicator
-[2020.04.19-20.15.34:095][347]LogHotReload: Re-instancing GoKartMovementReplicator after hot-reload.
-[2020.04.19-20.15.34:230][347]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
-[2020.04.19-20.15.34:234][347]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
-[2020.04.19-20.15.34:299][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
-[2020.04.19-20.15.34:310][347]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3027 classes and 725 folders.
-[2020.04.19-20.15.34:310][347]Display: HotReload took  8.8s.
-[2020.04.19-20.15.36:439][572]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.04.19-20.15.39:422][923]BlueprintLog: New page: Compile BP_GoKart
-[2020.04.19-20.15.39:426][923]LogBlueprint: Warning: [Compiler BP_GoKart] GoKart.MovementReplicator is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get MovementReplicator
-[2020.04.19-20.15.39:426][923]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  <Unnamed>  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.39:426][923]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Target  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.39:426][923]LogBlueprint: Error: [Compiler BP_GoKart] In use pin  Root  no longer exists on node  Set Mesh Offset Root . Please refresh node or break links to remove pin.
-[2020.04.19-20.15.39:614][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2020.04.19-20.15.45:059][176]LogHotReload: New module detected: UE4Editor-KrazyKarts-0076.dll
-[2020.04.19-20.15.46:088][180]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.19-20.15.46:149][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2020.04.19-20.15.46:177][180]LogClass: GoKartMove HotReload.
-[2020.04.19-20.15.46:177][180]LogClass: GoKartState HotReload.
-[2020.04.19-20.15.46:183][180]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
-[2020.04.19-20.15.46:187][180]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
-[2020.04.19-20.15.46:264][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
-[2020.04.19-20.15.46:275][180]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3027 classes and 725 folders.
-[2020.04.19-20.15.46:279][180]Display: HotReload took  0.2s.
-[2020.04.19-20.15.49:517][313]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.15.49:517][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.15.50:934][461]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KrazyKarts/BP_GoKart.BP_GoKart
-[2020.04.19-20.16.41:218][316]BlueprintLog: New page: Compile BP_GoKart
-[2020.04.19-20.16.41:220][316]LogBlueprint: Warning: [Compiler BP_GoKart] GoKart.MovementReplicator is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get MovementReplicator
-[2020.04.19-20.16.41:499][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
-[2020.04.19-20.17.04:001][691]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.19-20.17.04:015][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.17.04:015][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.19-20.17.04:016][691]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:17:04 PM)
-[2020.04.19-20.17.04:016][691]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.17.04:030][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014238s)
-[2020.04.19-20.17.04:031][691]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.17.04:031][691]LogPlayLevel: PIE: World Init took: (0.001029s)
-[2020.04.19-20.17.04:031][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015419s)
-[2020.04.19-20.17.04:087][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.17.04:089][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.17.04:089][691]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.17.04:089][691]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.17.04:090][691]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.17.04:145][691]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.17.04:145][691]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.17.04:145][691]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.17.04:145][691]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.17.04:146][691]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.17.04:180][691]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.17.04:182][691]LogInit: FAudioDevice initialized.
-[2020.04.19-20.17.04:221][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.17.04:221][691]LogLoad: Game class is 'BP_GameMode_C'
-[2020.04.19-20.17.04:224][691]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.17.04
-[2020.04.19-20.17.04:224][691]LogWorld: Bringing up level for play took: 0.001519
-[2020.04.19-20.17.04:224][691]LogOnline: OSS: Creating online subsystem instance for: :Context_5
-[2020.04.19-20.17.04:226][691]LogScript: Warning: Accessed None trying to read property MovementReplicator
-	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
-	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
-[2020.04.19-20.17.04:226][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
-[2020.04.19-20.17.04:227][691]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.612
-[2020.04.19-20.17.04:227][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.17.04:274][692]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.04.19-20.17.12:402][650]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.17.12:413][650]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.19-20.17.12:434][650]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.19-20.17.12:434][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.17.12:434][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.17.12:434][650]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.17.12:444][650]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.19-20.17.12:450][650]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.17.12:450][650]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.17.12:451][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.17.12:457][650]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.19-20.17.12:457][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.17.12:463][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.17.12:493][650]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.17.12:505][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
-[2020.04.19-20.17.12:587][651]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2020.04.19-20.17.16:584][ 98]LogSlate: Window 'Message Log' being destroyed
-[2020.04.19-20.17.16:589][ 98]LogSlate: Window 'Message Log' being destroyed
-[2020.04.19-20.18.30:325][ 32]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Source/KrazyKarts/GoKart.h'
-[2020.04.19-20.19.17:763][356]LogHotReload: New module detected: UE4Editor-KrazyKarts-0077.dll
-[2020.04.19-20.19.18:449][359]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.19-20.19.18:498][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2020.04.19-20.19.18:516][359]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
-[2020.04.19-20.19.18:526][359]LogClass: GoKartMove HotReload.
-[2020.04.19-20.19.18:526][359]LogClass: GoKartState HotReload.
-[2020.04.19-20.19.18:531][359]LogHotReload: Re-instancing GoKart after hot-reload.
-[2020.04.19-20.19.18:803][359]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
-[2020.04.19-20.19.18:807][359]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
-[2020.04.19-20.19.18:875][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
-[2020.04.19-20.19.18:888][359]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3027 classes and 725 folders.
-[2020.04.19-20.19.18:891][359]Display: HotReload took  0.4s.
-[2020.04.19-20.19.23:917][561]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.19-20.19.23:932][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.19.23:932][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.19-20.19.23:932][561]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:19:23 PM)
-[2020.04.19-20.19.23:932][561]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.19.23:947][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014704s)
-[2020.04.19-20.19.23:948][561]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.19.23:948][561]LogPlayLevel: PIE: World Init took: (0.001025s)
-[2020.04.19-20.19.23:948][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015864s)
-[2020.04.19-20.19.23:997][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.19.23:998][561]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.19.23:998][561]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.19.24:084][561]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.19.24:085][561]LogInit: FAudioDevice initialized.
-[2020.04.19-20.19.24:121][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.19.24:121][561]LogLoad: Game class is 'BP_GameMode_C'
-[2020.04.19-20.19.24:125][561]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.19.24
-[2020.04.19-20.19.24:125][561]LogWorld: Bringing up level for play took: 0.001407
-[2020.04.19-20.19.24:125][561]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2020.04.19-20.19.24:127][561]LogScript: Warning: Accessed None trying to read property MovementReplicator
-	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
-	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
-[2020.04.19-20.19.24:127][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
-[2020.04.19-20.19.24:128][561]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.512
-[2020.04.19-20.19.24:128][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.19.32:496][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.19.32:496][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.19.32:496][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.19.32:496][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.19.32:496][552]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.19.32:508][552]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.19-20.19.32:514][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.19.32:514][552]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.19.32:514][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.19.32:518][552]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.19-20.19.32:518][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.19.32:523][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.19.32:552][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.19.32:574][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
-[2020.04.19-20.19.32:647][553]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2020.04.19-20.20.11:218][627]LogHotReload: New module detected: UE4Editor-KrazyKarts-0078.dll
-[2020.04.19-20.20.12:240][631]LogHotReload: Starting Hot-Reload from IDE
-[2020.04.19-20.20.12:286][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
-[2020.04.19-20.20.12:304][631]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
-[2020.04.19-20.20.12:318][631]LogClass: GoKartMove HotReload.
-[2020.04.19-20.20.12:318][631]LogClass: GoKartState HotReload.
-[2020.04.19-20.20.12:323][631]LogHotReload: Re-instancing GoKart after hot-reload.
-[2020.04.19-20.20.12:646][631]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
-[2020.04.19-20.20.12:651][631]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
-[2020.04.19-20.20.12:736][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
-[2020.04.19-20.20.12:750][631]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3027 classes and 725 folders.
-[2020.04.19-20.20.12:753][631]Display: HotReload took  0.5s.
-[2020.04.19-20.20.16:238][766]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.19-20.20.16:254][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.20.16:254][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.19-20.20.16:254][766]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:20:16 PM)
-[2020.04.19-20.20.16:254][766]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.20.16:269][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014337s)
-[2020.04.19-20.20.16:270][766]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.20.16:270][766]LogPlayLevel: PIE: World Init took: (0.000976s)
-[2020.04.19-20.20.16:270][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015455s)
-[2020.04.19-20.20.16:333][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.20.16:335][766]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.20.16:336][766]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.20.16:336][766]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.20.16:419][766]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.20.16:420][766]LogInit: FAudioDevice initialized.
-[2020.04.19-20.20.16:457][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.20.16:458][766]LogLoad: Game class is 'BP_GameMode_C'
-[2020.04.19-20.20.16:461][766]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.20.16
-[2020.04.19-20.20.16:461][766]LogWorld: Bringing up level for play took: 0.001322
-[2020.04.19-20.20.16:461][766]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.04.19-20.20.16:463][766]LogScript: Warning: Accessed None trying to read property MovementReplicator
-	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
-	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
-[2020.04.19-20.20.16:463][766]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
-[2020.04.19-20.20.16:464][766]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.848
-[2020.04.19-20.20.16:464][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.20.20:665][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.20.20:683][259]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.19-20.20.20:704][259]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.19-20.20.20:704][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.20.20:704][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.20.20:704][259]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.20.20:714][259]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.04.19-20.20.20:719][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.20.20:720][259]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.20.20:720][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.20.20:727][259]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.19-20.20.20:727][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.20.20:731][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.20.20:762][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.20.20:794][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2020.04.19-20.20.20:834][260]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.04.19-20.23.03:012][693]BlueprintLog: New page: Compile BP_GoKart
-[2020.04.19-20.23.03:211][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2020.04.19-20.23.07:009][139]LogSlate: Window 'Message Log' being destroyed
-[2020.04.19-20.23.07:014][139]LogSlate: Window 'Message Log' being destroyed
-[2020.04.19-20.23.33:432][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
-[2020.04.19-20.23.33:432][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleCPP/Maps/VehicleExampleMap' took 0.034
-[2020.04.19-20.23.33:433][569]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KrazyKarts/BP_GoKart] ([1] browsable assets)...
-[2020.04.19-20.23.33:446][569]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KrazyKarts/BP_GoKart.BP_GoKart]
-[2020.04.19-20.23.33:446][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/KrazyKarts/BP_GoKart]
-[2020.04.19-20.23.33:446][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KrazyKarts/BP_GoKart" FILE="E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Autosaves/Game/KrazyKarts/BP_GoKart_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2020.04.19-20.23.33:472][569]LogSavePackage: Moving 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/BP_GoKart_Auto12091C45D4B0943108B0FC597C7F09158.tmp' to 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Autosaves/Game/KrazyKarts/BP_GoKart_Auto1.uasset'
-[2020.04.19-20.23.33:473][569]LogFileHelpers: Auto-saving content packages took 0.041
-[2020.04.19-20.28.49:729][612]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.19-20.28.49:746][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.28.49:746][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.19-20.28.49:746][612]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:28:49 PM)
-[2020.04.19-20.28.49:746][612]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.28.49:762][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015507s)
-[2020.04.19-20.28.49:763][612]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2020.04.19-20.28.49:763][612]LogPlayLevel: PIE: World Init took: (0.001067s)
-[2020.04.19-20.28.49:763][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016745s)
-[2020.04.19-20.28.49:799][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.19-20.28.49:800][612]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.19-20.28.49:801][612]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.19-20.28.49:801][612]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Is Default: Yes
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Channel Count Used: 8
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Device Channel Count: 8
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Channel Order:
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 1: FrontRight
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 2: FrontCenter
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 3: LowFrequency
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 4: BackLeft
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 5: BackRight
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 6: SideLeft
-[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 7: SideRight
-[2020.04.19-20.28.49:885][612]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.04.19-20.28.49:886][612]LogInit: FAudioDevice initialized.
-[2020.04.19-20.28.49:890][612]LogLoad: Game class is 'BP_GameMode_C'
-[2020.04.19-20.28.49:894][612]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.28.49
-[2020.04.19-20.28.49:894][612]LogWorld: Bringing up level for play took: 0.001550
-[2020.04.19-20.28.49:894][612]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2020.04.19-20.28.49:896][612]LogScript: Warning: Accessed None trying to read property MovementReplicator
-	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
-	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
-[2020.04.19-20.28.49:896][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
-[2020.04.19-20.28.49:896][612]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.281
-[2020.04.19-20.28.49:896][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.28.58:969][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.28.58:973][698]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.04.19-20.28.58:993][698]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.04.19-20.28.58:993][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.28.58:994][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.28.58:994][698]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2020.04.19-20.28.58:994][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.28.58:994][698]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.19-20.28.58:994][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.28.59:001][698]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.04.19-20.28.59:001][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2020.04.19-20.28.59:006][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.19-20.28.59:037][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.04.19-20.28.59:043][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.19-20.28.59:046][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
-[2020.04.19-20.28.59:129][699]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2020.04.19-20.29.13:422][371]LogSlate: Window 'Message Log' being destroyed
-[2020.04.19-20.29.13:426][371]LogSlate: Window 'Message Log' being destroyed
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:724][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.19-20.35.24:730][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.19-20.35.24:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.19-20.35.24:731][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.19-20.35.24:731][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.19-20.35.24:733][  0]LogHAL: Display: Platform has ~ 32 GB [34273157120 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.19-20.35.24:733][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.19-20.35.24:733][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.19-20.35.24:733][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Scalability.ini]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.19-20.35.24:734][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Config/Windows/Engine.ini]
+[2020.04.19-20.35.24:734][  0]LogInit: Computer: DESKTOP-22ELON2
+[2020.04.19-20.35.24:734][  0]LogInit: User: shelt
+[2020.04.19-20.35.24:734][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.04.19-20.35.24:734][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.19-20.35.24:735][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.04.19-20.35.24:735][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.19-20.35.24:735][  0]LogMemory: Process Physical Memory: 110.86 MB used, 110.87 MB peak
+[2020.04.19-20.35.24:735][  0]LogMemory: Process Virtual Memory: 106.40 MB used, 106.40 MB peak
+[2020.04.19-20.35.24:735][  0]LogMemory: Physical Memory: 11760.23 MB used,  20925.20 MB free, 32685.43 MB total
+[2020.04.19-20.35.24:735][  0]LogMemory: Virtual Memory: 5222.59 MB used,  134212504.00 MB free, 134217728.00 MB total
+[2020.04.19-20.35.25:150][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.19-20.35.25:166][  0]LogInit: Using OS detected language (en-US).
+[2020.04.19-20.35.25:166][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.19-20.35.25:167][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.19-20.35.25:297][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.19-20.35.25:322][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.19-20.35.25:322][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.19-20.35.25:479][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.19-20.35.25:479][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.19-20.35.25:479][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.19-20.35.25:479][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.19-20.35.25:551][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2020.04.19-20.35.25:551][  0]LogD3D11RHI:       11049/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.04.19-20.35.25:553][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.19-20.35.25:553][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.19-20.35.25:553][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.19-20.35.25:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.19-20.35.25:563][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.19-20.35.25:563][  0]LogWindows: EnumDisplayDevices:
+[2020.04.19-20.35.25:563][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2020.04.19-20.35.25:563][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2020.04.19-20.35.25:563][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.04.19-20.35.25:563][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2020.04.19-20.35.25:564][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.19-20.35.25:564][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2020.04.19-20.35.25:564][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.04.19-20.35.25:564][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.04.19-20.35.25:564][  0]LogRHI: Texture pool is 7734 MB (70% of 11049 MB)
+[2020.04.19-20.35.25:611][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.19-20.35.25:611][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.19-20.35.25:638][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.19-20.35.25:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.19-20.35.25:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.19-20.35.25:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.19-20.35.25:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.19-20.35.25:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.19-20.35.25:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.19-20.35.25:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.19-20.35.25:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.19-20.35.25:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.19-20.35.25:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.19-20.35.25:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.19-20.35.25:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.19-20.35.25:966][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.19-20.35.25:966][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.19-20.35.25:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.19-20.35.25:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.19-20.35.25:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.19-20.35.25:988][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.19-20.35.25:988][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.19-20.35.25:991][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.19-20.35.26:011][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (E:/Github/Unreal_KrazyKarts/KrazyKarts/Intermediate/Shaders/WorkingDirectory/23200/).
+[2020.04.19-20.35.26:011][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shelt/AppData/Local/Temp/UnrealShaderWorkingDir/BC67BCB946DC98EAB125A39AC0072C47/'.
+[2020.04.19-20.35.26:012][  0]LogXGEController: Cleaning working directory: C:/Users/shelt/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.19-20.35.26:012][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.19-20.35.26:012][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.19-20.35.26:012][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.19-20.35.26:528][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.19-20.35.26:581][  0]LogDerivedDataCache: Loaded boot cache 0.05s 83MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.19-20.35.26:581][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.19-20.35.26:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/Unreal_KrazyKarts/KrazyKarts/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.19-20.35.26:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.19-20.35.26:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/Unreal_KrazyKarts/KrazyKarts/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.19-20.35.26:582][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.19-20.35.26:589][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.19-20.35.26:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.19-20.35.26:589][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.19-20.35.26:592][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shelt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.19-20.35.26:592][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.19-20.35.26:592][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.19-20.35.26:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.19-20.35.26:613][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.19-20.35.26:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.19-20.35.26:652][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.04.19-20.35.26:857][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.19-20.35.26:970][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.19-20.35.26:970][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.19-20.35.26:970][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.19-20.35.26:970][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.19-20.35.26:970][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.19-20.35.26:983][  0]LogNetVersion: KrazyKarts 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2255843156)
+[2020.04.19-20.35.27:748][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.040059 seconds
+[2020.04.19-20.35.27:753][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.19-20.35.27:753][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.19-20.35.27:753][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.19-20.35.28:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.19-20.35.28:045][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.19-20.35.28:535][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.468 s
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: 
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: Ensure condition failed: !NeedsInitialization() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp] [Line: 1741]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: SetReplicatedByDefault is preferred during Component Construction.
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: Stack: 
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffaac8ad99 UE4Editor-Engine.dll!DispatchCheckVerify<bool,<lambda_d12e58a5100ee198f8c571cc7c965500> >() [d:\build\++ue4\sync\engine\source\runtime\core\public\misc\assertionmacros.h:167]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffa983f21a UE4Editor-Engine.dll!UActorComponent::SetIsReplicated() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:1741]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fff87d2557f UE4Editor-KrazyKarts-0079.dll!UGoKartMovementReplicator::UGoKartMovementReplicator() [E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKartMovementReplicator.cpp:15]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc6fa191a UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3142]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc71f11f5 UE4Editor-CoreUObject.dll!FObjectInitializer::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3751]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc713f28c UE4Editor-CoreUObject.dll!UObject::CreateDefaultSubobject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:110]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fff87d22990 UE4Editor-KrazyKarts-0079.dll!AGoKart::AGoKart() [E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp:18]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc6fa191a UE4Editor-CoreUObject.dll!UClass::CreateDefaultObject() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:3142]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc7231ddf UE4Editor-CoreUObject.dll!UObjectLoadAllCompiledInDefaultProperties() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:933]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc721119f UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:1022]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffc71457b5 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(FName,bool)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:854]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffac45c487 UE4Editor-Core.dll!TBaseMulticastDelegate<void,FName,bool>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1013]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffac47aa1b UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:493]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffebfcaf37 UE4Editor-Projects.dll!FModuleDescriptor::LoadModulesForPhase() [d:\build\++ue4\sync\engine\source\runtime\projects\private\moduledescriptor.cpp:554]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007fffebfcb229 UE4Editor-Projects.dll!FProjectManager::LoadModulesForProject() [d:\build\++ue4\sync\engine\source\runtime\projects\private\projectmanager.cpp:63]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33f671 UE4Editor.exe!FEngineLoop::LoadStartupModules() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3517]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34204b UE4Editor.exe!FEngineLoop::PreInitPostStartupScreen() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2889]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33c17c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:131]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab33c4ca UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34ceae UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:263]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6ab34fcbe UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff82f366fd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: [Callstack] 0x00007ff82f6dcec1 ntdll.dll!UnknownFunction []
+[2020.04.19-20.35.28:535][  0]LogOutputDevice: Error: 
+[2020.04.19-20.35.28:536][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.04.19-20.35.29:854][  0]LogStats:                    SendNewReport -  1.318 s
+[2020.04.19-20.35.29:854][  0]LogStats:             FDebug::EnsureFailed -  1.787 s
+[2020.04.19-20.35.29:944][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.29:944][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.29:944][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.29:945][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.29:946][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.30:009][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.19-20.35.30:015][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.19-20.35.30:015][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.19-20.35.30:078][  0]LogOcInput: OculusInput pre-init called
+[2020.04.19-20.35.30:558][  0]LogEngine: Initializing Engine...
+[2020.04.19-20.35.30:615][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.04.19-20.35.30:615][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.19-20.35.30:864][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.19-20.35.30:869][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.19-20.35.30:885][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.19-20.35.30:885][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.19-20.35.30:885][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 4: BackLeft
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 5: BackRight
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 6: SideLeft
+[2020.04.19-20.35.31:055][  0]LogAudioMixer: Display: 7: SideRight
+[2020.04.19-20.35.31:305][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.19-20.35.31:311][  0]LogInit: FAudioDevice initialized.
+[2020.04.19-20.35.31:312][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.19-20.35.31:353][  0]LogDerivedDataCache: Saved boot cache 0.04s 83MB C:/Users/shelt/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.19-20.35.31:357][  0]LogInit: Texture streaming: Enabled
+[2020.04.19-20.35.31:365][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.19-20.35.31:365][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.19-20.35.31:367][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.19-20.35.31:406][  0]LogInit: Transaction tracking system initialized
+[2020.04.19-20.35.31:413][  0]BlueprintLog: New page: Editor Load
+[2020.04.19-20.35.31:435][  0]LocalizationService: Localization service is disabled
+[2020.04.19-20.35.31:633][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/' took 0.00s
+[2020.04.19-20.35.31:633][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.19-20.35.31:633][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.19-20.35.32:105][  0]SourceControl: Source control is disabled
+[2020.04.19-20.35.32:105][  0]Cmd: MAP LOAD FILE="E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.19-20.35.32:106][  0]LightingResults: New page: Lighting Build
+[2020.04.19-20.35.32:107][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.19-20.35.32:107][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.35.32:107][  0]MapCheck: New page: Map Check
+[2020.04.19-20.35.32:107][  0]LightingResults: New page: Lighting Build
+[2020.04.19-20.35.32:136][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.04.19-20.35.32:242][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.19-20.35.32:246][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.19-20.35.32:275][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.04.19-20.35.32:275][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.19-20.35.32:275][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.09ms to complete.
+[2020.04.19-20.35.32:275][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.170
+[2020.04.19-20.35.32:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.35.32:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.35.32:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.35.32:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.35.32:412][  0]LogCollectionManager: Loaded 0 collections in 0.002070 seconds
+[2020.04.19-20.35.32:422][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Collections/' took 0.00s
+[2020.04.19-20.35.32:422][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/Developers/shelt/Collections/' took 0.00s
+[2020.04.19-20.35.32:422][  0]LogFileCache: Scanning file cache for directory 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Content/Collections/' took 0.00s
+[2020.04.19-20.35.32:422][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3025 classes and 722 folders.
+[2020.04.19-20.35.32:424][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.19-20.35.32:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.04.19-20.35.32:471][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.04.19-20.35.32:547][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.19-20.35.32:548][  0]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.19-20.35.32:551][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.19-20.35.32:608][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.19-20.35.32:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.19-20.35.32:685][  0]LogLoad: (Engine Initialization) Total time: 9.65 seconds
+[2020.04.19-20.35.32:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.19-20.35.32:697][  0]LogRawInputWindows: Warning: Found device 20 devices
+[2020.04.19-20.35.32:697][  0]LogRawInputWindows: Warning: Found device 20 devices
+[2020.04.19-20.35.32:698][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2020.04.19-20.35.32:698][  0]LogRawInputWindows: Warning: Found device 20 devices
+[2020.04.19-20.35.32:698][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2020.04.19-20.35.32:721][  0]LogAssetRegistry: Asset discovery search completed in 6.0700 seconds
+[2020.04.19-20.35.32:723][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2020.04.19-20.35.32:725][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.19-20.35.32:741][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.19-20.35.54:594][604]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.19-20.35.54:617][604]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/KrazyKarts/BP_GoKart.BP_GoKart
+[2020.04.19-20.35.54:720][604]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.04.19-20.35.55:344][604]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.19-20.35.55:367][605]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.19-20.35.57:858][893]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.19-20.35.57:871][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.35.57:871][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.19-20.35.57:872][893]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:35:57 PM)
+[2020.04.19-20.35.57:872][893]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.19-20.35.57:873][893]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.19-20.35.57:873][893]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.35.57:890][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017428s)
+[2020.04.19-20.35.57:891][893]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.19-20.35.57:892][893]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2020.04.19-20.35.57:892][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.018843s)
+[2020.04.19-20.35.57:924][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.04.19-20.35.57:925][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.19-20.35.57:925][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.19-20.35.57:925][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.19-20.35.57:925][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.19-20.35.57:925][893]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.19-20.35.57:926][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.19-20.35.57:926][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.19-20.35.57:926][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.19-20.35.57:926][893]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.19-20.35.57:926][893]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Is Default: Yes
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: Channel Order:
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 1: FrontRight
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 4: BackLeft
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 5: BackRight
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 6: SideLeft
+[2020.04.19-20.35.57:978][893]LogAudioMixer: Display: 7: SideRight
+[2020.04.19-20.35.58:010][893]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.19-20.35.58:011][893]LogInit: FAudioDevice initialized.
+[2020.04.19-20.35.58:053][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.35.58:057][893]LogLoad: Game class is 'BP_GameMode_C'
+[2020.04.19-20.35.58:061][893]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.35.58
+[2020.04.19-20.35.58:061][893]LogWorld: Bringing up level for play took: 0.001378
+[2020.04.19-20.35.58:061][893]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.04.19-20.35.58:064][893]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.04.19-20.35.58:065][893]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.45
+[2020.04.19-20.35.58:066][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.35.58:106][894]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.19-20.36.00:204][112]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.36.00:223][112]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.19-20.36.00:243][112]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.19-20.36.00:243][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.36.00:243][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.36.00:243][112]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.36.00:253][112]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.19-20.36.00:257][112]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.36.00:257][112]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.19-20.36.00:258][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.36.00:262][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.19-20.36.00:263][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.36.00:267][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.36.00:297][112]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.36.00:326][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.04.19-20.36.00:334][113]LogPlayLevel: Display: Destroying online subsystem :Context_3
