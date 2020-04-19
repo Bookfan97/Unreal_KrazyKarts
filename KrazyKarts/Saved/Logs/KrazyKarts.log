@@ -1206,3 +1206,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.19-01.29.34:081][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
 [2020.04.19-01.29.34:094][440]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3025 classes and 725 folders.
 [2020.04.19-01.29.34:097][440]Display: HotReload took  0.5s.
+[2020.04.19-01.32.13:069][916]LogHotReload: New module detected: UE4Editor-KrazyKarts-0041.dll
+[2020.04.19-01.32.13:761][919]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.19-01.32.13:844][919]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.04.19-01.32.13:862][919]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
+[2020.04.19-01.32.13:862][919]LogClass: Function OnRep_ServerState is new.
+[2020.04.19-01.32.13:862][919]LogClass: Function Server_SendMove is new.
+[2020.04.19-01.32.13:870][919]LogClass: GoKartState HotReload.
+[2020.04.19-01.32.13:870][919]LogClass: GoKartMove HotReload.
+[2020.04.19-01.32.13:875][919]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.19-01.32.14:161][919]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2020.04.19-01.32.14:165][919]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.04.19-01.32.14:233][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.04.19-01.32.14:245][919]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3025 classes and 725 folders.
+[2020.04.19-01.32.14:248][919]Display: HotReload took  0.5s.
