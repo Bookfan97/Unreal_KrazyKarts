@@ -23,6 +23,8 @@ void EmptyLinkFunctionForGeneratedCodeGoKartMovementReplicator() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	KRAZYKARTS_API UFunction* Z_Construct_UFunction_UGoKartMovementReplicator_OnRep_ServerState();
 	KRAZYKARTS_API UFunction* Z_Construct_UFunction_UGoKartMovementReplicator_Server_SendMove();
+	KRAZYKARTS_API UFunction* Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	KRAZYKARTS_API UClass* Z_Construct_UClass_UGoKartMovementComponent_NoRegister();
 // End Cross Module References
 class UScriptStruct* FGoKartState::StaticStruct()
@@ -142,6 +144,7 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnRep_ServerState", &UGoKartMovementReplicator::execOnRep_ServerState },
 			{ "Server_SendMove", &UGoKartMovementReplicator::execServer_SendMove },
+			{ "SetMeshOffsetRoot", &UGoKartMovementReplicator::execSetMeshOffsetRoot },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -195,6 +198,46 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics
+	{
+		struct GoKartMovementReplicator_eventSetMeshOffsetRoot_Parms
+		{
+			USceneComponent* Root;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Root;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::NewProp_Root_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GoKartMovementReplicator_eventSetMeshOffsetRoot_Parms, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::NewProp_Root_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::NewProp_Root,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GoKartMovementReplicator.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGoKartMovementReplicator, nullptr, "SetMeshOffsetRoot", nullptr, nullptr, sizeof(GoKartMovementReplicator_eventSetMeshOffsetRoot_Parms), Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UGoKartMovementReplicator_NoRegister()
 	{
 		return UGoKartMovementReplicator::StaticClass();
@@ -206,6 +249,10 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeshOffsetRoot_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshOffsetRoot;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementComponent_MetaData[];
 #endif
@@ -225,6 +272,7 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGoKartMovementReplicator_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGoKartMovementReplicator_OnRep_ServerState, "OnRep_ServerState" }, // 2741503167
 		{ &Z_Construct_UFunction_UGoKartMovementReplicator_Server_SendMove, "Server_SendMove" }, // 2476393234
+		{ &Z_Construct_UFunction_UGoKartMovementReplicator_SetMeshOffsetRoot, "SetMeshOffsetRoot" }, // 3182316850
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGoKartMovementReplicator_Statics::Class_MetaDataParams[] = {
@@ -234,6 +282,13 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 		{ "ModuleRelativePath", "GoKartMovementReplicator.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MeshOffsetRoot_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GoKartMovementReplicator.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MeshOffsetRoot = { "MeshOffsetRoot", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGoKartMovementReplicator, MeshOffsetRoot), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MeshOffsetRoot_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MeshOffsetRoot_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MovementComponent_MetaData[] = {
 		{ "EditInline", "true" },
@@ -248,6 +303,7 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_ServerState = { "ServerState", "OnRep_ServerState", (EPropertyFlags)0x0040000100000020, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGoKartMovementReplicator, ServerState), Z_Construct_UScriptStruct_FGoKartState, METADATA_PARAMS(Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_ServerState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_ServerState_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGoKartMovementReplicator_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MeshOffsetRoot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_MovementComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGoKartMovementReplicator_Statics::NewProp_ServerState,
 	};
@@ -278,7 +334,7 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGoKartMovementReplicator, 3620666416);
+	IMPLEMENT_CLASS(UGoKartMovementReplicator, 4110314359);
 	template<> KRAZYKARTS_API UClass* StaticClass<UGoKartMovementReplicator>()
 	{
 		return UGoKartMovementReplicator::StaticClass();
