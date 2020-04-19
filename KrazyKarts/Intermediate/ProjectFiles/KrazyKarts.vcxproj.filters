@@ -76,9 +76,15 @@
     <ClInclude Include="..\..\Source\KrazyKarts\GoKart.h">
       <Filter>Source\KrazyKarts</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\KrazyKarts\GoKartMovementComponent.h">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\KrazyKarts\GoKart.cpp">
+      <Filter>Source\KrazyKarts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KrazyKarts\GoKartMovementComponent.cpp">
       <Filter>Source\KrazyKarts</Filter>
     </ClCompile>
   </ItemGroup>

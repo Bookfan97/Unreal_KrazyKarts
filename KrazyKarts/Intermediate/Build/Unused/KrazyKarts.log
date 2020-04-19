@@ -2,15 +2,11 @@
   Building KrazyKartsEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] GoKart.cpp
-E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(59): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(67): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(73): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-E:\Github\Unreal_KrazyKarts\KrazyKarts\Source\KrazyKarts\GoKart.cpp(78): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    [2/4] UE4Editor-KrazyKarts-0044.lib
-       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0044.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0044.exp
-    [3/4] UE4Editor-KrazyKarts-0044.dll
-       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0044.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0044.suppressed.exp
+    [1/4] GoKartMovementComponent.cpp
+    [2/4] UE4Editor-KrazyKarts-0051.lib
+       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0051.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0051.exp
+    [3/4] UE4Editor-KrazyKarts-0051.dll
+       Creating library E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0051.suppressed.lib and object E:\Github\Unreal_KrazyKarts\KrazyKarts\Intermediate\Build\Win64\UE4Editor\Development\KrazyKarts\UE4Editor-KrazyKarts-0051.suppressed.exp
     [4/4] KrazyKartsEditor.target
-  Total time in Parallel executor: 3.01 seconds
-  Total execution time: 3.56 seconds
+  Total time in Parallel executor: 1.53 seconds
+  Total execution time: 2.06 seconds

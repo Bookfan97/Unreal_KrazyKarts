@@ -275,8 +275,10 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\KrazyKarts\KrazyKarts.Build.cs" />
     <ClCompile Include="..\..\Source\KrazyKarts\GoKart.cpp" />
+    <ClCompile Include="..\..\Source\KrazyKarts\GoKartMovementComponent.cpp" />
     <ClCompile Include="..\..\Source\KrazyKarts\KrazyKarts.cpp" />
     <ClInclude Include="..\..\Source\KrazyKarts\GoKart.h" />
+    <ClInclude Include="..\..\Source\KrazyKarts\GoKartMovementComponent.h" />
     <ClInclude Include="..\..\Source\KrazyKarts\KrazyKarts.h" />
     <ClCompile Include="..\..\Source\KrazyKarts\KrazyKartsGameMode.cpp" />
     <ClInclude Include="..\..\Source\KrazyKarts\KrazyKartsGameMode.h" />

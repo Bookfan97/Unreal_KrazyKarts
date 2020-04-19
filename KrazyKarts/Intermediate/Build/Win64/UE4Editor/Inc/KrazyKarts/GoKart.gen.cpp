@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeGoKart() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	KRAZYKARTS_API UFunction* Z_Construct_UFunction_AGoKart_OnRep_ServerState();
 	KRAZYKARTS_API UFunction* Z_Construct_UFunction_AGoKart_Server_SendMove();
+	KRAZYKARTS_API UClass* Z_Construct_UClass_UGoKartMovementComponent_NoRegister();
 // End Cross Module References
 class UScriptStruct* FGoKartState::StaticStruct()
 {
@@ -128,121 +129,6 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartState
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FGoKartState_Hash() { return 3394823872U; }
-class UScriptStruct* FGoKartMove::StaticStruct()
-{
-	static class UScriptStruct* Singleton = NULL;
-	if (!Singleton)
-	{
-		extern KRAZYKARTS_API uint32 Get_Z_Construct_UScriptStruct_FGoKartMove_Hash();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FGoKartMove, Z_Construct_UPackage__Script_KrazyKarts(), TEXT("GoKartMove"), sizeof(FGoKartMove), Get_Z_Construct_UScriptStruct_FGoKartMove_Hash());
-	}
-	return Singleton;
-}
-template<> KRAZYKARTS_API UScriptStruct* StaticStruct<FGoKartMove>()
-{
-	return FGoKartMove::StaticStruct();
-}
-static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FGoKartMove(FGoKartMove::StaticStruct, TEXT("/Script/KrazyKarts"), TEXT("GoKartMove"), false, nullptr, nullptr);
-static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove
-{
-	FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove()
-	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("GoKartMove")),new UScriptStruct::TCppStructOps<FGoKartMove>);
-	}
-} ScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove;
-	struct Z_Construct_UScriptStruct_FGoKartMove_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
-#endif
-		static void* NewStructOps();
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Time_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Time;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeltaTime_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeltaTime;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SteeringThrow_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SteeringThrow;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Throttle_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Throttle;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGoKartMove_Statics::Struct_MetaDataParams[] = {
-		{ "ModuleRelativePath", "GoKart.h" },
-	};
-#endif
-	void* Z_Construct_UScriptStruct_FGoKartMove_Statics::NewStructOps()
-	{
-		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FGoKartMove>();
-	}
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Time_MetaData[] = {
-		{ "ModuleRelativePath", "GoKart.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Time = { "Time", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGoKartMove, Time), METADATA_PARAMS(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Time_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Time_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_DeltaTime_MetaData[] = {
-		{ "ModuleRelativePath", "GoKart.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_DeltaTime = { "DeltaTime", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGoKartMove, DeltaTime), METADATA_PARAMS(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_DeltaTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_DeltaTime_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_SteeringThrow_MetaData[] = {
-		{ "ModuleRelativePath", "GoKart.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_SteeringThrow = { "SteeringThrow", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGoKartMove, SteeringThrow), METADATA_PARAMS(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_SteeringThrow_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_SteeringThrow_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Throttle_MetaData[] = {
-		{ "ModuleRelativePath", "GoKart.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Throttle = { "Throttle", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGoKartMove, Throttle), METADATA_PARAMS(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Throttle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Throttle_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGoKartMove_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Time,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_DeltaTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_SteeringThrow,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGoKartMove_Statics::NewProp_Throttle,
-	};
-	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FGoKartMove_Statics::ReturnStructParams = {
-		(UObject* (*)())Z_Construct_UPackage__Script_KrazyKarts,
-		nullptr,
-		&NewStructOps,
-		"GoKartMove",
-		sizeof(FGoKartMove),
-		alignof(FGoKartMove),
-		Z_Construct_UScriptStruct_FGoKartMove_Statics::PropPointers,
-		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::PropPointers),
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FGoKartMove_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGoKartMove_Statics::Struct_MetaDataParams))
-	};
-	UScriptStruct* Z_Construct_UScriptStruct_FGoKartMove()
-	{
-#if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FGoKartMove_Hash();
-		UPackage* Outer = Z_Construct_UPackage__Script_KrazyKarts();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("GoKartMove"), sizeof(FGoKartMove), Get_Z_Construct_UScriptStruct_FGoKartMove_Hash(), false);
-#else
-		static UScriptStruct* ReturnStruct = nullptr;
-#endif
-		if (!ReturnStruct)
-		{
-			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FGoKartMove_Statics::ReturnStructParams);
-		}
-		return ReturnStruct;
-	}
-	uint32 Get_Z_Construct_UScriptStruct_FGoKartMove_Hash() { return 179105531U; }
 	static FName NAME_AGoKart_Server_SendMove = FName(TEXT("Server_SendMove"));
 	void AGoKart::Server_SendMove(FGoKartMove Move)
 	{
@@ -321,29 +207,13 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MovementComponent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ServerState_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ServerState;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RollingResistanceCoefficient_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RollingResistanceCoefficient;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DragCoefficient_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DragCoefficient;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinTurningRadius_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinTurningRadius;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxDrivingForce_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxDrivingForce;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mass_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Mass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -364,63 +234,22 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MovementComponent_MetaData[] = {
+		{ "Category", "GoKart" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GoKart.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_MovementComponent = { "MovementComponent", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, MovementComponent), Z_Construct_UClass_UGoKartMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_MovementComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_MovementComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_ServerState_MetaData[] = {
 		{ "ModuleRelativePath", "GoKart.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_ServerState = { "ServerState", "OnRep_ServerState", (EPropertyFlags)0x0040000100000020, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, ServerState), Z_Construct_UScriptStruct_FGoKartState, METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_ServerState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_ServerState_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient_MetaData[] = {
-		{ "Category", "GoKart" },
-		{ "Comment", "// Higher means more rolling resistance.\n" },
-		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "Higher means more rolling resistance." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient = { "RollingResistanceCoefficient", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, RollingResistanceCoefficient), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient_MetaData[] = {
-		{ "Category", "GoKart" },
-		{ "Comment", "// Higher means more drag.\n" },
-		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "Higher means more drag." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient = { "DragCoefficient", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, DragCoefficient), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData[] = {
-		{ "Category", "GoKart" },
-		{ "Comment", "// Minimum radius of the car turning circle at full lock (m).\n" },
-		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "Minimum radius of the car turning circle at full lock (m)." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius = { "MinTurningRadius", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, MinTurningRadius), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce_MetaData[] = {
-		{ "Category", "GoKart" },
-		{ "Comment", "// The force applied to the car when the throttle is fully down (N).\n" },
-		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "The force applied to the car when the throttle is fully down (N)." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce = { "MaxDrivingForce", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, MaxDrivingForce), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoKart_Statics::NewProp_Mass_MetaData[] = {
-		{ "Category", "GoKart" },
-		{ "Comment", "// The mass of the car (kg).\n" },
-		{ "ModuleRelativePath", "GoKart.h" },
-		{ "ToolTip", "The mass of the car (kg)." },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGoKart_Statics::NewProp_Mass = { "Mass", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoKart, Mass), METADATA_PARAMS(Z_Construct_UClass_AGoKart_Statics::NewProp_Mass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoKart_Statics::NewProp_Mass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGoKart_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MovementComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_ServerState,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_RollingResistanceCoefficient,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_DragCoefficient,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MinTurningRadius,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_MaxDrivingForce,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoKart_Statics::NewProp_Mass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGoKart_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGoKart>::IsAbstract,
@@ -449,7 +278,7 @@ static struct FScriptStruct_KrazyKarts_StaticRegisterNativesFGoKartMove
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGoKart, 3756403858);
+	IMPLEMENT_CLASS(AGoKart, 2951637344);
 	template<> KRAZYKARTS_API UClass* StaticClass<AGoKart>()
 	{
 		return AGoKart::StaticClass();
