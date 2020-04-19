@@ -893,3 +893,232 @@ Make sure 'HOTRELOADED_GoKartMovementReplicator_1' has been compiled for  Set Me
 [2020.04.19-20.17.12:587][651]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2020.04.19-20.17.16:584][ 98]LogSlate: Window 'Message Log' being destroyed
 [2020.04.19-20.17.16:589][ 98]LogSlate: Window 'Message Log' being destroyed
+[2020.04.19-20.18.30:325][ 32]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Source/KrazyKarts/GoKart.h'
+[2020.04.19-20.19.17:763][356]LogHotReload: New module detected: UE4Editor-KrazyKarts-0077.dll
+[2020.04.19-20.19.18:449][359]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.19-20.19.18:498][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.04.19-20.19.18:516][359]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
+[2020.04.19-20.19.18:526][359]LogClass: GoKartMove HotReload.
+[2020.04.19-20.19.18:526][359]LogClass: GoKartState HotReload.
+[2020.04.19-20.19.18:531][359]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.19-20.19.18:803][359]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.04.19-20.19.18:807][359]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
+[2020.04.19-20.19.18:875][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.04.19-20.19.18:888][359]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 3027 classes and 725 folders.
+[2020.04.19-20.19.18:891][359]Display: HotReload took  0.4s.
+[2020.04.19-20.19.23:917][561]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.19-20.19.23:932][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.19.23:932][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.19-20.19.23:932][561]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:19:23 PM)
+[2020.04.19-20.19.23:932][561]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.19.23:947][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014704s)
+[2020.04.19-20.19.23:948][561]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.19-20.19.23:948][561]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2020.04.19-20.19.23:948][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015864s)
+[2020.04.19-20.19.23:997][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.19-20.19.23:998][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.19-20.19.23:998][561]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.19-20.19.23:998][561]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Is Default: Yes
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: Channel Order:
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 1: FrontRight
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 4: BackLeft
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 5: BackRight
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 6: SideLeft
+[2020.04.19-20.19.24:050][561]LogAudioMixer: Display: 7: SideRight
+[2020.04.19-20.19.24:084][561]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.19-20.19.24:085][561]LogInit: FAudioDevice initialized.
+[2020.04.19-20.19.24:121][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.19.24:121][561]LogLoad: Game class is 'BP_GameMode_C'
+[2020.04.19-20.19.24:125][561]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.19.24
+[2020.04.19-20.19.24:125][561]LogWorld: Bringing up level for play took: 0.001407
+[2020.04.19-20.19.24:125][561]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.04.19-20.19.24:127][561]LogScript: Warning: Accessed None trying to read property MovementReplicator
+	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
+	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
+[2020.04.19-20.19.24:127][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
+[2020.04.19-20.19.24:128][561]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.512
+[2020.04.19-20.19.24:128][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.19.32:496][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.19.32:496][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.19.32:496][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.19.32:496][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.19.32:496][552]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.19.32:508][552]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.19-20.19.32:514][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.19.32:514][552]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.19-20.19.32:514][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.19.32:518][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.19-20.19.32:518][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.19.32:523][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.19.32:552][552]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.19.32:574][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.04.19-20.19.32:647][553]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.04.19-20.20.11:218][627]LogHotReload: New module detected: UE4Editor-KrazyKarts-0078.dll
+[2020.04.19-20.20.12:240][631]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.19-20.20.12:286][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.04.19-20.20.12:304][631]LogClass: Could not find existing class GoKart in package /Script/KrazyKarts for HotReload, assuming new class
+[2020.04.19-20.20.12:318][631]LogClass: GoKartMove HotReload.
+[2020.04.19-20.20.12:318][631]LogClass: GoKartState HotReload.
+[2020.04.19-20.20.12:323][631]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.19-20.20.12:646][631]LogContentBrowser: Native class hierarchy updated for 'KrazyKarts' in 0.0003 seconds. Added 8 classes and 2 folders.
+[2020.04.19-20.20.12:651][631]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
+[2020.04.19-20.20.12:736][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.19-20.20.12:750][631]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3027 classes and 725 folders.
+[2020.04.19-20.20.12:753][631]Display: HotReload took  0.5s.
+[2020.04.19-20.20.16:238][766]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.19-20.20.16:254][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.20.16:254][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.19-20.20.16:254][766]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:20:16 PM)
+[2020.04.19-20.20.16:254][766]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.20.16:269][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014337s)
+[2020.04.19-20.20.16:270][766]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.19-20.20.16:270][766]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2020.04.19-20.20.16:270][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015455s)
+[2020.04.19-20.20.16:333][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.19-20.20.16:335][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.19-20.20.16:335][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.19-20.20.16:336][766]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.19-20.20.16:336][766]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Is Default: Yes
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: Channel Order:
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 1: FrontRight
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 4: BackLeft
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 5: BackRight
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 6: SideLeft
+[2020.04.19-20.20.16:386][766]LogAudioMixer: Display: 7: SideRight
+[2020.04.19-20.20.16:419][766]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.19-20.20.16:420][766]LogInit: FAudioDevice initialized.
+[2020.04.19-20.20.16:457][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.20.16:458][766]LogLoad: Game class is 'BP_GameMode_C'
+[2020.04.19-20.20.16:461][766]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.20.16
+[2020.04.19-20.20.16:461][766]LogWorld: Bringing up level for play took: 0.001322
+[2020.04.19-20.20.16:461][766]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.04.19-20.20.16:463][766]LogScript: Warning: Accessed None trying to read property MovementReplicator
+	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
+	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
+[2020.04.19-20.20.16:463][766]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
+[2020.04.19-20.20.16:464][766]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.848
+[2020.04.19-20.20.16:464][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.20.20:665][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.20.20:683][259]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.19-20.20.20:704][259]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.19-20.20.20:704][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.20.20:704][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.20.20:704][259]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.20.20:714][259]LogSlate: Window 'KrazyKarts Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.19-20.20.20:719][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.20.20:720][259]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.19-20.20.20:720][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.20.20:727][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.19-20.20.20:727][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.20.20:731][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.20.20:762][259]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.20.20:794][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.04.19-20.20.20:834][260]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.19-20.23.03:012][693]BlueprintLog: New page: Compile BP_GoKart
+[2020.04.19-20.23.03:211][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.04.19-20.23.07:009][139]LogSlate: Window 'Message Log' being destroyed
+[2020.04.19-20.23.07:014][139]LogSlate: Window 'Message Log' being destroyed
+[2020.04.19-20.23.33:432][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.04.19-20.23.33:432][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleCPP/Maps/VehicleExampleMap' took 0.034
+[2020.04.19-20.23.33:433][569]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/KrazyKarts/BP_GoKart] ([1] browsable assets)...
+[2020.04.19-20.23.33:446][569]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/KrazyKarts/BP_GoKart.BP_GoKart]
+[2020.04.19-20.23.33:446][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/KrazyKarts/BP_GoKart]
+[2020.04.19-20.23.33:446][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KrazyKarts/BP_GoKart" FILE="E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Autosaves/Game/KrazyKarts/BP_GoKart_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.04.19-20.23.33:472][569]LogSavePackage: Moving 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/BP_GoKart_Auto12091C45D4B0943108B0FC597C7F09158.tmp' to 'E:/Github/Unreal_KrazyKarts/KrazyKarts/Saved/Autosaves/Game/KrazyKarts/BP_GoKart_Auto1.uasset'
+[2020.04.19-20.23.33:473][569]LogFileHelpers: Auto-saving content packages took 0.041
+[2020.04.19-20.28.49:729][612]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.19-20.28.49:746][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.28.49:746][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.19-20.28.49:746][612]PIE: New page: PIE session: VehicleExampleMap (Apr 19, 2020, 12:28:49 PM)
+[2020.04.19-20.28.49:746][612]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.28.49:762][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015507s)
+[2020.04.19-20.28.49:763][612]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.19-20.28.49:763][612]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2020.04.19-20.28.49:763][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.016745s)
+[2020.04.19-20.28.49:799][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.19-20.28.49:800][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.19-20.28.49:800][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.19-20.28.49:801][612]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.19-20.28.49:801][612]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Is Default: Yes
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Channel Count Used: 8
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Device Channel Count: 8
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: Channel Order:
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 1: FrontRight
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 2: FrontCenter
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 3: LowFrequency
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 4: BackLeft
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 5: BackRight
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 6: SideLeft
+[2020.04.19-20.28.49:852][612]LogAudioMixer: Display: 7: SideRight
+[2020.04.19-20.28.49:885][612]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.19-20.28.49:886][612]LogInit: FAudioDevice initialized.
+[2020.04.19-20.28.49:890][612]LogLoad: Game class is 'BP_GameMode_C'
+[2020.04.19-20.28.49:894][612]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.19-16.28.49
+[2020.04.19-20.28.49:894][612]LogWorld: Bringing up level for play took: 0.001550
+[2020.04.19-20.28.49:894][612]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.04.19-20.28.49:896][612]LogScript: Warning: Accessed None trying to read property MovementReplicator
+	BP_GoKart_C /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap:PersistentLevel.BP_GoKart_C_0
+	Function /Game/KrazyKarts/BP_GoKart.BP_GoKart_C:ExecuteUbergraph_BP_GoKart:0017
+[2020.04.19-20.28.49:896][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property MovementReplicator". Blueprint:  BP_GoKart Function:  Execute Ubergraph BP Go Kart Graph:  EventGraph Node:  Set Mesh Offset Root
+[2020.04.19-20.28.49:896][612]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.281
+[2020.04.19-20.28.49:896][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.28.58:969][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.28.58:973][698]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.19-20.28.58:993][698]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.19-20.28.58:993][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.28.58:994][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.28.58:994][698]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2020.04.19-20.28.58:994][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.28.58:994][698]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.19-20.28.58:994][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.28.59:001][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.19-20.28.59:001][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.19-20.28.59:006][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.19-20.28.59:037][698]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.19-20.28.59:043][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.19-20.28.59:046][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.04.19-20.28.59:129][699]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.19-20.29.13:422][371]LogSlate: Window 'Message Log' being destroyed
+[2020.04.19-20.29.13:426][371]LogSlate: Window 'Message Log' being destroyed
