@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\KrazyKarts.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6F8BD8FA-DB77-41CD-8ADB-17031E356533}</UniqueIdentifier>
+      <UniqueIdentifier>{D161213A-25F2-4B86-9020-A5AC3DAAD6A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\KrazyKarts.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2FF38495-EF70-4A26-802D-1A2E6A5A6705}</UniqueIdentifier>
+      <UniqueIdentifier>{F6695D4F-4688-49D7-B6F2-057894B763A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\KrazyKarts">
-      <UniqueIdentifier>{FC14CBEF-9B78-4B85-B169-0BCE1220B946}</UniqueIdentifier>
+      <UniqueIdentifier>{3554C48C-CE20-4D28-B8EA-0987B2BBEC02}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\KrazyKarts\GoKart.cpp">
       <Filter>Source\KrazyKarts</Filter>
